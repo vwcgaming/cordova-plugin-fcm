@@ -1,6 +1,9 @@
 # Google Firebase Cloud Messaging Cordova Push Plugin
 > Extremely easy plug&play push notification plugin for Cordova applications with Google Firebase FCM.
 
+#### Version 4.2.0 (10/23/2019)
+- Adds new functionality to clear badge of notifications.
+
 #### Version 4.1.3 (09/02/2019)
 - Fix Analytic issues on Android devices.
 
