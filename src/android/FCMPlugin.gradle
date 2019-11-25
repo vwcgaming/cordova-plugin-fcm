@@ -5,7 +5,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:+'
-        classpath 'com.google.gms:google-services:+'
+        classpath 'com.google.gms:google-services:4.2.0'
     }
 }
 repositories {
@@ -15,10 +15,10 @@ repositories {
     }
 }
 dependencies {
-    implementation 'com.google.firebase:firebase-auth:+'
-    implementation "com.google.android.gms:play-services-tagmanager:+"
-    implementation "com.google.firebase:firebase-core:+"
-    implementation "com.google.firebase:firebase-messaging:+"
+    implementation 'com.google.firebase:firebase-auth:17.0.0'
+    implementation "com.google.android.gms:play-services-tagmanager:16.0.8"
+    implementation "com.google.firebase:firebase-core:17.2.1"
+    implementation "com.google.firebase:firebase-messaging:17.+"
     implementation "com.google.firebase:firebase-config:+"
     implementation "com.google.firebase:firebase-perf:+"
 }
